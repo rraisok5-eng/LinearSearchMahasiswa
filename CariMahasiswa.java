@@ -1,11 +1,11 @@
-public class CariMahasiswa {
+public class cariMahasiswa {
     public static void main(String[] args) {
 
         // Data mahasiswa (NIM dan Nama)
         String[] nim = {"231001", "231002", "231003", "231004", "231005"};
-        String[] nama = {"Andi", "Budi", "Citra", "Dewi", "Eka"};
+        String[] nama = {"Arya", "Budi", "Rizal", "juan", "Nurman"};
 
-        String cari = "Dewi";  // nama yang dicari
+        String cari = "Juan";  // nama yang dicari
         int posisi = -1;       // posisi awal belum ditemukan
         int perbandingan = 0;  // menghitung jumlah perbandingan
         boolean ditemukan = false;
